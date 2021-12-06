@@ -8,6 +8,7 @@ PRODUCT_COPY_FILES += \
 
 #Custom packages
 PRODUCT_PACKAGES += \
+    FontCustomOverlay \
     FontAccuratistOverlay \
     FontAclonicaOverlay \
     FontAmaranteOverlay \
