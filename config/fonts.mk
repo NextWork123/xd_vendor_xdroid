@@ -44,5 +44,6 @@ PRODUCT_PACKAGES += \
     FontSonySketchSourceOverlay \
     FontStoropiaSourceOverlay \
     FontSurferSourceOverlay \
-    FontUbuntuSourceOverlay
-    FontOppoSansOverlay
+    FontUbuntuSourceOverlay \
+    FontOppoSansOverlay \
+    FontNothiingDotOverlay
