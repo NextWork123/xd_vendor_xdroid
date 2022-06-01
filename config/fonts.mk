@@ -45,3 +45,4 @@ PRODUCT_PACKAGES += \
     FontStoropiaSourceOverlay \
     FontSurferSourceOverlay \
     FontUbuntuSourceOverlay
+    FontOppoSansOverlay
