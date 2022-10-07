@@ -24,6 +24,10 @@ include vendor/xdroid/config/xd_packages.mk
 # xd. props
 include vendor/xdroid/config/xd_props.mk
 
+# Repainter integration
+PRODUCT_PACKAGES += \
+    RepainterServicePriv \
+
 # Themes
 PRODUCT_PACKAGES += \
     XdroidThemesStub \
