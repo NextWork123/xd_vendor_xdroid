@@ -1,4 +1,4 @@
-export AOSP_REVISION=$(grep "default revision" ".repo/manifests/default.xml" | awk -F '/' '{print $3}' | awk -F '"' '{print $1}')
+export AOSP_REVISION=android-13.0.0_r8
 
 # Welcome Msg
 echo "=========================================="
