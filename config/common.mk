@@ -24,6 +24,9 @@ include vendor/xdroid/config/xd_packages.mk
 # xd. props
 include vendor/xdroid/config/xd_props.mk
 
+# Fonts
+include vendor/xdroid/config/fonts.mk
+
 # Repainter integration
 PRODUCT_PACKAGES += \
     RepainterServicePriv \
