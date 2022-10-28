@@ -64,6 +64,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.dex2oat64.enabled=true
 endif
 
+# Smart Charging
+PRODUCT_COPY_FILES += \
+    vendor/xdroid/prebuilt/common/etc/init/smartcharge-init.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/smartcharge-init.rc 
+
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/xdroid/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
